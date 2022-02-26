@@ -1,3 +1,5 @@
+//Code was written by Omer Goldberg. August 2021//
+
 #include <wavTrigger.h>
 
 /* Arduino Mega Serial port to use: Serial Port 3:
@@ -115,7 +117,7 @@ void setup() {
     Serial.println(" Milliseconds");
   }
 
-  // set master gain to -6db;
+  // set master gain to 0db;
   wTrig.masterGain(0);
 
 }
